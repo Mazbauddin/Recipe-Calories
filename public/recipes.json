@@ -1,0 +1,88 @@
+[
+  {
+    "recipe_image": "chicken_curry.jpg",
+    "recipe_id": "001",
+    "recipe_name": "Chicken Curry",
+    "short_description": "A delicious and aromatic chicken curry with a blend of spices.",
+    "ingredients": [
+      "550 g chicken",
+      "120 ml soy sauce",
+      "200 g basil leaves",
+      "400 g mushroom"
+    ],
+    "preparing_time": "30 min",
+    "calories": "320 calories"
+  },
+  {
+    "recipe_image": "spaghetti_bolognese.jpg",
+    "recipe_id": "002",
+    "recipe_name": "Spaghetti Bolognese",
+    "short_description": "Classic Italian pasta dish with rich tomato sauce and minced meat.",
+    "ingredients": [
+      "400 g spaghetti",
+      "300 g minced beef",
+      "500 ml tomato sauce",
+      "100 g parmesan cheese"
+    ],
+    "preparing_time": "45 min",
+    "calories": "480 calories"
+  },
+  {
+    "recipe_image": "vegetable_stir_fry.jpg",
+    "recipe_id": "003",
+    "recipe_name": "Vegetable Stir-Fry",
+    "short_description": "A colorful and healthy stir-fry with a variety of fresh vegetables.",
+    "ingredients": [
+      "300 g mixed vegetables (bell peppers, carrots, broccoli)",
+      "150 g tofu",
+      "50 ml soy sauce",
+      "2 cloves garlic"
+    ],
+    "preparing_time": "25 min",
+    "calories": "250 calories"
+  },
+  {
+    "recipe_image": "avocado_salad.jpg",
+    "recipe_id": "004",
+    "recipe_name": "Avocado Salad",
+    "short_description": "Refreshing salad with ripe avocados, cherry tomatoes, and mixed greens.",
+    "ingredients": [
+      "2 ripe avocados",
+      "200 g cherry tomatoes",
+      "100 g mixed greens",
+      "30 ml balsamic vinaigrette"
+    ],
+    "preparing_time": "15 min",
+    "calories": "180 calories"
+  },
+  {
+    "recipe_image": "pancakes.jpg",
+    "recipe_id": "005",
+    "recipe_name": "Blueberry Pancakes",
+    "short_description": "Fluffy pancakes filled with juicy blueberries, perfect for breakfast or brunch.",
+    "ingredients": [
+      "200 g all-purpose flour",
+      "150 g blueberries",
+      "2 eggs",
+      "250 ml milk",
+      "30 g butter"
+    ],
+    "preparing_time": "20 min",
+    "calories": "280 calories"
+  },
+  {
+    "recipe_image": "chocolate_cake.jpg",
+    "recipe_id": "006",
+    "recipe_name": "Chocolate Cake",
+    "short_description": "Indulgent chocolate cake with a moist and decadent texture.",
+    "ingredients": [
+      "200 g all-purpose flour",
+      "150 g dark chocolate",
+      "150 g butter",
+      "200 g sugar",
+      "3 eggs"
+    ],
+    "preparing_time": "50 min",
+    "calories": "380 calories"
+  }
+]
