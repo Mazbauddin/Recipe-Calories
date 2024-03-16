@@ -1,4 +1,5 @@
 import "./App.css";
+import Banner from "./components/Banner";
 import Header from "./components/Header";
 import Recipe from "./components/Recipe/Recipe";
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Header></Header>
       <Recipe></Recipe>
+      <Banner></Banner>
     </>
   );
 }
