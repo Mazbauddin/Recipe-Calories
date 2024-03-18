@@ -58,10 +58,9 @@ function App() {
         <div className="heading text-center">
           <h1 className="text-[40px] font-semibold">Our Recipes</h1>
           <p className="text-center">
-            Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus{" "}
-            <br />
-            vulputate netus pharetra rhoncus. Eget urna volutpat curabitur
-            elementum mauris aenean neque.
+            Whether you are using a slow cooker, roasting, air frying, or
+            marinating, <br />
+            we have got a recipe for every occasion. Browse our recipes now!
           </p>
         </div>
         <div className="main-container grid grid-cols-1 lg:grid-cols-12 justify-between container mx-auto mt-20 gap-5">
@@ -70,7 +69,7 @@ function App() {
               <Recipes handleAddCookSide={handleAddCookSide}></Recipes>
             </div>
           </div>
-          <div className="cart-container col-span-5 shadow-xl border-2 border-[#878787] rounded-2xl p-8 h-full">
+          <div className="cart-container col-span-5 shadow-xl border-2 border-[#878787] rounded-2xl p-5 h-full">
             <CookSides
               cookSides={cookSides}
               handleAddCooking={handleAddCooking}

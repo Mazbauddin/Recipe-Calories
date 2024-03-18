@@ -22,3 +22,14 @@ ul.ingredients-list li {
   padding-bottom: 10px;
   margin-left: 35px;
 }
+
+.search {
+}
+.search-icon {
+  font-size: 20px;
+  transform: translate(30px, 2px);
+  -webkit-transform: translate(30px, 2px);
+  -moz-transform: translate(30px, 2px);
+  -ms-transform: translate(30px, 2px);
+  -o-transform: translate(30px, 2px);
+}

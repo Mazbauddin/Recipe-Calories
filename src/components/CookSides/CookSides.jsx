@@ -12,10 +12,11 @@ const CookSides = ({ cookSides, handleAddCooking }) => {
           {/* head */}
           <thead>
             <tr>
+              <th className="p-0"></th>
+              <th className="pl-4">Name</th>
+              <th className="pl-4">Time</th>
+              <th className="pl-4">Calories</th>
               <th></th>
-              <th>Name</th>
-              <th>Time</th>
-              <th>Calories</th>
             </tr>
           </thead>
         </table>

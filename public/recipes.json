@@ -8,9 +8,9 @@
       "550 g chicken",
       "120 ml soy sauce",
       "200 g basil leaves",
-      "200 g basil leaves",
-      "200 g basil leaves",
-      "400 g mushroom"
+      "400 g mushroom",
+      "2 onions (sliced)",
+      "3 cloves garlic (minced)"
     ],
     "preparing_time": "30",
     "calories": "320"
@@ -24,9 +24,9 @@
       "400 g spaghetti",
       "300 g minced beef",
       "500 ml tomato sauce",
-      "500 ml tomato sauce",
-      "500 ml tomato sauce",
-      "100 g parmesan cheese"
+      "100 g parmesan cheese",
+      "1 onion (chopped)",
+      "2 cloves garlic (minced)"
     ],
     "preparing_time": "45",
     "calories": "480"
@@ -38,11 +38,11 @@
     "description": "A colorful and healthy stir-fry with a variety of fresh vegetables.",
     "ingredients": [
       "300 g mixed vegetables",
+      "bell peppers, carrots",
+      "broccoli",
       "150 g tofu",
       "50 ml soy sauce",
-      "50 ml soy sauce",
-      "50 ml soy sauce",
-      "2 cloves garlic"
+      "2 cloves garlic (minced)"
     ],
     "preparing_time": "25",
     "calories": "250"
@@ -56,8 +56,8 @@
       "2 ripe avocados",
       "200 g cherry tomatoes",
       "100 g mixed greens",
-      "100 g mixed greens",
-      "100 g mixed greens",
+      "50 ml soy sauce",
+      "2 cloves garlic (minced)",
       "30 ml balsamic vinaigrette"
     ],
     "preparing_time": "15",
@@ -72,8 +72,8 @@
       "200 g all-purpose flour",
       "150 g blueberries",
       "2 eggs",
-      "250 ml milk",
-      "250 ml milk",
+      "250 g sugar",
+      "200 g strawbarry",
       "30 g butter"
     ],
     "preparing_time": "20",
@@ -88,7 +88,7 @@
       "200 g all-purpose flour",
       "150 g dark chocolate",
       "150 g butter",
-      "150 g butter",
+      "250 ml milk",
       "200 g sugar",
       "3 eggs"
     ],

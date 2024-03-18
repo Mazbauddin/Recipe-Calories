@@ -1,3 +1,5 @@
+import { FaSearch } from "react-icons/fa";
+import { FaRegUserCircle } from "react-icons/fa";
 const Header = () => {
   return (
     <div className="container py-8 mx-auto">
@@ -66,13 +68,16 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end search">
+          <FaSearch className="search-icon  hidden lg:flex" />
           <input
-            className="rounded-2xl p-2 mr-5 bg-[#dadafa] hidden lg:flex"
+            className="rounded-2xl py-3 pl-10 mr-5 bg-[#dadafa] hidden lg:flex"
             type="text"
             placeholder="Search"
           />
-          <button className="bg-green-700 p-2 rounded-full">O</button>
+          <button className="bg-[#0ce58a] p-2 text-[30px] rounded-full">
+            <FaRegUserCircle />
+          </button>
         </div>
       </div>
     </div>

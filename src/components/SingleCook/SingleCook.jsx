@@ -2,21 +2,17 @@ import PropTypes from "prop-types";
 const SingleCook = ({ bookmark, handleAddCooking }) => {
   const { title, calories, preparing_time } = bookmark;
   return (
-    <div className="bg-slate-500 p-4 m-4">
+    <div className="bg-[#f8f8f8] p-5  mb-4 rounded-[16px]">
       {/* <h3 className="text-3xl">{title}</h3>
       <h3 className="text-3xl">{calories}</h3> */}
-      <div className="overflow-x-auto flex">
+      <div className="flex justify-between items-center">
         <table className="table">
           {/* head */}
-          <thead>
-            <tr>
-              <th></th>
-            </tr>
-          </thead>
+
           <tbody>
             {/* row  */}
-            <tr>
-              <th className="p-0">{}</th>
+            <tr className="border-b-0">
+              <td className="p-0">{}</td>
               <td className="p-0">{title}</td>
               <td>{preparing_time} minutes</td>
               <td>{calories} calories</td>
