@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 const SingleCook = ({ cookSingle, handleDeleteCook }) => {
   const { title, calories, preparing_time } = cookSingle;
   return (
-    <div className="bg-[#f8f8f8] p-5  mb-4 rounded-[16px]">
+    <div className="bg-[#f8f8f8] p-5 shadow-xl mb-4 rounded-[16px]">
       <div className="flex justify-between items-center">
         <table className="table">
           <tbody>

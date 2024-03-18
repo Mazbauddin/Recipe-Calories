@@ -43,7 +43,7 @@ const Recipe = ({ recipe, handleAddCookSide }) => {
         <div className="card-actions">
           <button
             onClick={() => handleAddCookSide(recipe)}
-            className="btn border-2 border-transparent text-black hover:bg-transparent hover:border-2 hover:border-[#0ce58a] hover:text-[#0ce58a] bg-[#0ce58a] rounded-[50px]"
+            className="btn shadow-xl border-2 border-transparent text-black hover:bg-transparent hover:border-2 hover:border-[#0ce58a] hover:text-[#0ce58a] bg-[#0ce58a] rounded-[50px]"
           >
             Want to Cook
           </button>

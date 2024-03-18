@@ -14,10 +14,10 @@ const Banner = () => {
           local conditions.
         </p>
         <div className="mx-auto text-center">
-          <button className=" mb-5 lg:mb-0 btn bg-transparent border-2 border-white px-5 py-3 rounded-[50px] text-white hover:bg-[#0ce58a] hover:border-transparent hover:text-black mr-8">
+          <button className=" mb-5 lg:mb-0 btn bg-transparent border-2 border-white px-5 py-3 rounded-[50px] text-[16px] text-white hover:bg-[#0ce58a] hover:border-transparent hover:text-black mr-8">
             Explore Now
           </button>
-          <button className="btn  bg-transparent border-2 border-white px-5 py-3 rounded-[50px] text-white hover:bg-[#0ce58a] hover:border-transparent hover:text-black mr-8 ">
+          <button className="btn text-[16px] bg-transparent border-2 border-white px-5 py-3 rounded-[50px] text-white hover:bg-[#0ce58a] hover:border-transparent hover:text-black mr-8 ">
             Our Feedback
           </button>
         </div>

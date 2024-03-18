@@ -27,7 +27,9 @@ ul.ingredients-list li {
   padding-bottom: 10px;
   margin-left: 35px;
 }
-
+ul.menu li a {
+  font-size: 16px;
+}
 .search-icon {
   font-size: 20px;
   transform: translate(30px, 2px);
