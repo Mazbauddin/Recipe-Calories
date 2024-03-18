@@ -2,6 +2,7 @@ const Footer = () => {
   return (
     <div className="bg-slate-200 pb-10">
       <div className="container mx-auto mt-20">
+        {/* footer nav start */}
         <footer className="footer p-10  text-base-content">
           <nav>
             <h6 className="footer-title">Services</h6>
@@ -24,6 +25,7 @@ const Footer = () => {
             <a className="link link-hover">Cookie policy</a>
           </nav>
         </footer>
+        {/* footer social area start */}
         <footer className="footer px-10 py-4 border-t  text-base-content border-base-300">
           <aside className="items-center grid-flow-col">
             <p>
