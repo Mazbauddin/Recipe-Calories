@@ -61,7 +61,6 @@ function App() {
         </div>
         <ToastContainer />
       </div>
-
       <Footer></Footer>
     </>
   );

@@ -6,7 +6,6 @@ const SingleCook = ({ cookSingle, handleDeleteCook }) => {
       <div className="flex justify-between items-center">
         <table className="table">
           <tbody>
-            {/* row  */}
             <tr className="border-b-0 text-[14px]">
               <td className="p-0">{}</td>
               <td className="p-0">{title}</td>
@@ -30,4 +29,5 @@ SingleCook.propTypes = {
   cookSingle: PropTypes.object,
   handleDeleteCook: PropTypes.func,
 };
+
 export default SingleCook;
