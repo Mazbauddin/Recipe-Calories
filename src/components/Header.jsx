@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="container bg-purple-500 py-12 mx-auto">
+    <div className="container py-8 mx-auto">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
@@ -45,24 +45,30 @@ const Header = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li className="px-10">
-              <a className="hover:text-red-500" href="#">
+              <a className="hover:text-[#0ce58a]" href="#">
                 Home
               </a>
             </li>
             <li className="px-10">
-              <a href="#">Recipes</a>
+              <a className="hover:text-[#0ce58a]" href="#">
+                Recipes
+              </a>
             </li>
             <li className="px-10">
-              <a href="#">About</a>
+              <a className="hover:text-[#0ce58a]" href="#">
+                About
+              </a>
             </li>
             <li className="px-10">
-              <a href="#">Search</a>
+              <a className="hover:text-[#0ce58a]" href="#">
+                Search
+              </a>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
           <input
-            className="rounded-2xl p-2 mr-5 bg-[#dadafa]"
+            className="rounded-2xl p-2 mr-5 bg-[#dadafa] hidden lg:flex"
             type="text"
             placeholder="Search"
           />

@@ -37,7 +37,7 @@
     "title": "Vegetable Stir-Fry",
     "description": "A colorful and healthy stir-fry with a variety of fresh vegetables.",
     "ingredients": [
-      "300 g mixed vegetables (bell peppers, carrots, broccoli)",
+      "300 g mixed vegetables",
       "150 g tofu",
       "50 ml soy sauce",
       "50 ml soy sauce",
@@ -67,7 +67,7 @@
     "id": "5",
     "image": "https://i.ibb.co/tsYnqGT/pancakes.jpg",
     "title": "Blueberry Pancakes",
-    "description": "Fluffy pancakes filled with juicy blueberries, perfect for breakfast or brunch.",
+    "description": "Fluffy pancakes filled with juicy blueberries, perfect for breakfast.",
     "ingredients": [
       "200 g all-purpose flour",
       "150 g blueberries",
