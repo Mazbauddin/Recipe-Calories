@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import SingleCook from "../SingleCook/SingleCook";
 
-const CookSides = ({ cookSides, handleAddCooking }) => {
+const CookSides = ({ cookSides, handleDeleteCook }) => {
   return (
     <div className="">
       <div>
@@ -11,7 +11,7 @@ const CookSides = ({ cookSides, handleAddCooking }) => {
         <table className="table">
           {/* head */}
           <thead>
-            <tr>
+            <tr className="text-base">
               <th className="p-0"></th>
               <th className="pl-4">Name</th>
               <th className="pl-4">Time</th>
@@ -20,23 +20,23 @@ const CookSides = ({ cookSides, handleAddCooking }) => {
             </tr>
           </thead>
         </table>
-        {cookSides.map((bookmark, index) => (
+        {cookSides.map((cookSingle, index) => (
           <SingleCook
             key={index}
-            bookmark={bookmark}
-            handleAddCooking={handleAddCooking}
+            cookSingle={cookSingle}
+            handleDeleteCook={handleDeleteCook}
           ></SingleCook>
         ))}
       </div>
       {/* cooking add */}
-      <div>
+      <div className="mt-8">
         <h1 className="text-[24px] font-bold text-center mb-8">
           Currently cooking: <span>0</span>
         </h1>
         <table className="table">
           {/* head */}
           <thead>
-            <tr>
+            <tr className="text-base">
               <th></th>
               <th>Name</th>
               <th>Time</th>
@@ -51,8 +51,7 @@ const CookSides = ({ cookSides, handleAddCooking }) => {
 
 CookSides.propTypes = {
   cookSides: PropTypes.array,
-  handleAddCooking: PropTypes.func,
+  handleDeleteCook: PropTypes.func,
 };
-export default CookSides;
 
-// handleAddCooking: PropTypes.func
+export default CookSides;

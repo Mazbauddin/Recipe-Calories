@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Lexend", sans-serif;
 }
@@ -23,8 +28,6 @@ ul.ingredients-list li {
   margin-left: 35px;
 }
 
-.search {
-}
 .search-icon {
   font-size: 20px;
   transform: translate(30px, 2px);

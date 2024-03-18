@@ -3,7 +3,7 @@ import { FaRegUserCircle } from "react-icons/fa";
 const Header = () => {
   return (
     <div className="container py-8 mx-auto">
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 px-5 lg:px-0">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -27,18 +27,24 @@ const Header = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li className="px-10">
-                <a className="hover:text-red-500" href="#">
+                <a className="hover:text-[#0ce58a]" href="#">
                   Home
                 </a>
               </li>
               <li className="px-10">
-                <a href="#">Recipes</a>
+                <a className="hover:text-[#0ce58a]" href="#">
+                  Recipes
+                </a>
               </li>
               <li className="px-10">
-                <a href="#">About</a>
+                <a className="hover:text-[#0ce58a]" href="#">
+                  About
+                </a>
               </li>
               <li className="px-10">
-                <a href="#">Search</a>
+                <a className="hover:text-[#0ce58a]" href="#">
+                  Search
+                </a>
               </li>
             </ul>
           </div>
@@ -46,22 +52,22 @@ const Header = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li className="px-10">
+            <li className="px-7">
               <a className="hover:text-[#0ce58a]" href="#">
                 Home
               </a>
             </li>
-            <li className="px-10">
+            <li className="px-7">
               <a className="hover:text-[#0ce58a]" href="#">
                 Recipes
               </a>
             </li>
-            <li className="px-10">
+            <li className="px-7">
               <a className="hover:text-[#0ce58a]" href="#">
                 About
               </a>
             </li>
-            <li className="px-10">
+            <li className="px-7">
               <a className="hover:text-[#0ce58a]" href="#">
                 Search
               </a>

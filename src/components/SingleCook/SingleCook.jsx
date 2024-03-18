@@ -1,17 +1,13 @@
 import PropTypes from "prop-types";
-const SingleCook = ({ bookmark, handleAddCooking }) => {
-  const { title, calories, preparing_time } = bookmark;
+const SingleCook = ({ cookSingle, handleDeleteCook }) => {
+  const { title, calories, preparing_time } = cookSingle;
   return (
     <div className="bg-[#f8f8f8] p-5  mb-4 rounded-[16px]">
-      {/* <h3 className="text-3xl">{title}</h3>
-      <h3 className="text-3xl">{calories}</h3> */}
       <div className="flex justify-between items-center">
         <table className="table">
-          {/* head */}
-
           <tbody>
             {/* row  */}
-            <tr className="border-b-0">
+            <tr className="border-b-0 text-[14px]">
               <td className="p-0">{}</td>
               <td className="p-0">{title}</td>
               <td>{preparing_time} minutes</td>
@@ -20,7 +16,7 @@ const SingleCook = ({ bookmark, handleAddCooking }) => {
           </tbody>
         </table>
         <button
-          onClick={() => handleAddCooking(title)}
+          onClick={() => handleDeleteCook(cookSingle)}
           className="btn border-2 border-transparent text-black hover:bg-transparent hover:border-2 hover:border-[#0ce58a] hover:text-[#0ce58a] bg-[#0ce58a] rounded-[50px]"
         >
           Preparing
@@ -31,9 +27,7 @@ const SingleCook = ({ bookmark, handleAddCooking }) => {
 };
 
 SingleCook.propTypes = {
-  bookmark: PropTypes.object,
-  handleAddCooking: PropTypes.func,
+  cookSingle: PropTypes.object,
+  handleDeleteCook: PropTypes.func,
 };
 export default SingleCook;
-
-// onClick={() => handleDelete(item.id)}

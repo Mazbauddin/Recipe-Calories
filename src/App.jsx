@@ -7,19 +7,18 @@ import CookSides from "./components/CookSides/CookSides";
 import Recipes from "./components/Recipes/Recipes";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Footer from "./components/Footer";
 
 function App() {
   const [cookSides, setCookSides] = useState([]);
 
-  const handleAddCooking = (cook) => {
-    const newCooking = [...cookSides, cook];
-    setCookSides(newCooking);
+  // handle Button Delete
+  const handleDeleteCook = (cook) => {
+    const deleteCooking = cookSides.filter(
+      (handleDeleteCook) => handleDeleteCook.id != cook.id
+    );
+    setCookSides(deleteCooking);
   };
-
-  // const handleAddCookSide = (recipe) => {
-  //   const newCookSides = [...cookSides, recipe];
-  //   setCookSides(newCookSides);
-  // };
 
   // handle add cook
   const handleAddCookSide = (recipe) => {
@@ -30,31 +29,15 @@ function App() {
       setCookSides([...cookSides, recipe]);
       toast.success("Successfully Added Your Order");
     } else {
-      toast.warn("Once Added Do not Add");
+      toast.warn("Dish Preparing Do Not Add Another One");
     }
   };
 
-  // button create now delete
-  // Button Delete
-  // const handleDelete = (id) => {
-  //   const newCookSides = cookSides.filter((handleDelete) => handleDelete.id!= id);
-  //   setCookSides(newCookSides);
-  // };
-  // const handleDelete = (id) => {
-  //   const newCart = cookSides.filter((item) => item.id != id);
-  //   setCookSides(newCart);
-  // };
-
-  // end
   return (
     <>
       <Header></Header>
       <Banner></Banner>
-      {/* <div className="md:flex container mx-auto">
-        <Recipes></Recipes>
-        <Bookmarks></Bookmarks>
-      </div> */}
-      <div className="my-20">
+      <div className="my-20 mx-5 lg:mx-0">
         <div className="heading text-center">
           <h1 className="text-[40px] font-semibold">Our Recipes</h1>
           <p className="text-center">
@@ -64,20 +47,22 @@ function App() {
           </p>
         </div>
         <div className="main-container grid grid-cols-1 lg:grid-cols-12 justify-between container mx-auto mt-20 gap-5">
-          <div className="cards-container col-span-7">
+          <div className="cards-container  col-span-12 lg:col-span-7">
             <div className="">
               <Recipes handleAddCookSide={handleAddCookSide}></Recipes>
             </div>
           </div>
-          <div className="cart-container col-span-5 shadow-xl border-2 border-[#878787] rounded-2xl p-5 h-full">
+          <div className="cart-container col-span-12 lg:col-span-5 shadow-xl border-2 border-[#878787] rounded-2xl p-5 h-full">
             <CookSides
               cookSides={cookSides}
-              handleAddCooking={handleAddCooking}
+              handleDeleteCook={handleDeleteCook}
             ></CookSides>
           </div>
         </div>
         <ToastContainer />
       </div>
+
+      <Footer></Footer>
     </>
   );
 }

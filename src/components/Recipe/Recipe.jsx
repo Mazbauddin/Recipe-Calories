@@ -12,14 +12,14 @@ const Recipe = ({ recipe, handleAddCookSide }) => {
       </figure>
       <div className="">
         <h2 className="card-title text-[20px] font-semibold mt-5">{title}</h2>
-        <p className="border-b-2 border-black mt-3 pb-5 text-[#878787] text-base">
+        <p className="border-b-2 border-[#2828281A] mt-3 pb-5 text-[#878787] text-base">
           {description}
         </p>
         <div className="ingredients">
           <h2 className="card-title mt-10 pb-3">
             Ingredients {ingredients.length}
           </h2>
-          <ul className="border-b-2  border-black list-disc ingredients-list text-base text-[#878787]">
+          <ul className="border-b-2  border-[#2828281A] list-disc ingredients-list text-base text-[#878787]">
             {ingredients.map((ingre, index) => (
               <li key={index}>{ingre}</li>
             ))}
